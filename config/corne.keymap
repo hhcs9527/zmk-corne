@@ -22,6 +22,7 @@
             quick-tap-ms = <90>;
             require-prior-idle-ms = <10>;
             hold-trigger-on-release;
+            retro-tap;
         };
     };
 
