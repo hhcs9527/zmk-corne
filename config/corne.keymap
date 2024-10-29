@@ -10,13 +10,13 @@
 
 / {
     behaviors {
-        tap100: tap100 {
+        tap300: tap300 {
             compatible = "zmk,behavior-hold-tap";
-            label = "TAP100";
+            label = "TAP300";
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <300>;
             flavor = "balanced";
             hold-trigger-on-release;
             hold-trigger-key-positions = <37 39 40>;
