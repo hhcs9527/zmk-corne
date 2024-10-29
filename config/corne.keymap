@@ -9,6 +9,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        tap100: tap100 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAP100";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <100>;
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <37 39 40>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
