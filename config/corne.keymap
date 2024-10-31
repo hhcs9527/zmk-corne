@@ -69,10 +69,10 @@
 
         symbol-layer {
             bindings = <
-&trans  &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp NON_US_BACKSLASH  &kp GRAVE         &kp AMPERSAND  &trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans
-&trans  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL             &kp HASH          &kp PIPE       &kp COLON   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &trans
-&trans  &trans           &kp SLASH      &kp ASTERISK      &kp CARET             &kp UNDERSCORE    &kp TILDE      &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans
-                                        &trans            &trans                &trans            &trans         &trans      &trans
+&trans  &trans           &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH  &kp GRAVE         &kp AMPERSAND  &trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans
+&trans  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL      &kp HASH          &kp PIPE       &kp COLON   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SINGLE_QUOTE  &trans
+&trans  &trans           &kp SLASH      &kp ASTERISK      &kp CARET      &kp UNDERSCORE    &kp TILDE      &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans            &trans
+                                        &trans            &trans         &trans            &trans         &trans      &trans
             >;
         };
 
