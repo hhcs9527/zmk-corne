@@ -10,16 +10,16 @@
 
 / {
     behaviors {
-        tap160_130_10: tap160_130_10 {
+        tap60_30_5: tap60_30_5 {
             compatible = "zmk,behavior-hold-tap";
-            label = "TAP160_130_10";
+            label = "TAP60_30_5";
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <60>;
+            tapping-term-ms = <30>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <37 39 40 13 14 15 16 19 20 21 22>;
-            quick-tap-ms = <30>;
+            quick-tap-ms = <15>;
             require-prior-idle-ms = <5>;
             hold-trigger-on-release;
         };
