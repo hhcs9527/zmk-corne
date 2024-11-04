@@ -60,10 +60,10 @@
 
         arrow-layer {
             bindings = <
-&trans  &trans  &trans            &kp LG(LA(UP_ARROW))    &trans             &kp C_VOLUME_UP      &trans                  &trans                       &kp UP_ARROW  &trans                  &trans                  &trans
-&trans  &trans  &kp LG(LA(LEFT))  &kp LG(LA(DOWN_ARROW))  &kp LG(LA(RIGHT))  &kp C_VOLUME_DOWN    &trans                  &kp LEFT                     &kp DOWN      &kp RIGHT               &trans                  &trans
-&trans  &trans  &trans            &kp LS(LG(TAB))         &kp LG(TAB)        &kp K_MUTE           &mt RIGHT_GUI LG(LEFT)  &mt LEFT_GUI LA(LEFT_ARROW)  &trans        &mt LEFT_GUI LA(RIGHT)  &mt LEFT_GUI RG(RIGHT)  &trans
-                                  &trans                  &trans             &trans               &trans                  &trans                       &trans
+&trans  &trans  &trans            &kp LG(LS(TAB))       &kp LG(TAB)        &kp C_VOLUME_UP      &trans                  &trans                       &kp UP_ARROW  &trans                  &trans                  &trans
+&trans  &trans  &trans            &kp LG(LA(UP_ARROW))  &trans             &kp C_VOLUME_DOWN    &trans                  &kp LEFT                     &kp DOWN      &kp RIGHT               &trans                  &trans
+&trans  &trans  &kp LG(LA(LEFT))  &kp LG(LA(DOWN))      &kp LG(LA(RIGHT))  &kp K_MUTE           &mt RIGHT_GUI LG(LEFT)  &mt LEFT_GUI LA(LEFT_ARROW)  &trans        &mt LEFT_GUI LA(RIGHT)  &mt LEFT_GUI RG(RIGHT)  &trans
+                                  &trans                &trans             &trans               &trans                  &trans                       &trans
             >;
         };
 
