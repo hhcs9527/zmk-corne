@@ -13,7 +13,7 @@
 #include "includes/settings.dtsi"
 
 &mt {
-    require-prior-idle-ms = <50>;
+    require-prior-idle-ms = <30>;
     quick-tap-ms = <30>;
     hold-trigger-key-positions = <38>;
     hold-trigger-on-release;
@@ -23,7 +23,7 @@
 &lt {
     tapping-term-ms = <150>;
     quick-tap-ms = <30>;
-    require-prior-idle-ms = <50>;
+    require-prior-idle-ms = <30>;
     hold-trigger-on-release;
     hold-trigger-key-positions = <39 40 37 36>;
 };
